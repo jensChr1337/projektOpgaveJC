@@ -4,10 +4,11 @@ import java.util.ArrayList;
 
 	public class MenuItem{
 		
-		private String name; 
-		private double price; 
-		private int MenuItemStock;
-	public void setName(String name) {
+		public String name; 
+		public double price; 
+		public int MenuItemStock;
+	
+		public void setName(String name) {
 		this.name = name;  
 	} 
 	
@@ -15,12 +16,12 @@ import java.util.ArrayList;
 		return name; 		
 	}
 	
-	public void setPrice(Double price) {
-		this.price = price; 
- 	}
+	public double getPrice() {
+		return price; 
+	}
 	
-	public double getPrice(double price){
-		return price; 	
+	public void setPrice(double price){
+		this.price = price; 	
 	}
 
 	public int getMenuItemStock() {

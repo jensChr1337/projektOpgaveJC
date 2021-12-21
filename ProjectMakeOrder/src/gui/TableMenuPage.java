@@ -27,7 +27,7 @@ public class TableMenuPage implements ActionListener {
 		frame.add(StartOrderButton); {
 }
 	}
-	//* denne event opstår når man klikker på Start Ordrer knappen
+	//* denne event opstår når man klikker på Start Ordrer knappen.
 
 		public void actionPerformed(ActionEvent e) {
 		

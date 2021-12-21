@@ -1,8 +1,7 @@
 package model;
 
-import java.awt.MenuItem;
 
-public class orderLine { 
+public class OrderLine { 
 
 
 	private int quantity; 
@@ -13,11 +12,20 @@ public class orderLine {
 	}
 	public int getQuantity() { 
 		return quantity; 
+	
 	}
+	public double getSubTotal() {
+	return item.getPrice() * quantity;
+	}
+	
 	public MenuItem getItem() {
 		return item;
 	}
 	public void setItem(MenuItem item) {
 		this.item = item;
 	}
+
+
+
+
 }
